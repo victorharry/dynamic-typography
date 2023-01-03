@@ -3,10 +3,10 @@ import { ReactNode, CSSProperties } from 'react'
 import * as S from './styled'
 
 // Interface to avoid unwanted tags such as <div/>
-type tagVariants = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'p' | 'span'
+type TagVariants = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'p' | 'span'
 
 type TypographyProps = {
-  tag?: tagVariants
+  tag?: TagVariants
   children: ReactNode
 }
 
